@@ -1,5 +1,6 @@
 package easytests.support;
 
+
 import easytests.core.entities.AnswerEntity;
 import easytests.core.models.AnswerModelInterface;
 import easytests.core.models.empty.QuestionModelEmpty;
@@ -174,7 +175,5 @@ public class AnswersSupport{
         assertEquals(second, first);
         Assert.assertEquals(new ModelsListEmpty(), second.getQuestion());
     }
-
-
-
 }
+
